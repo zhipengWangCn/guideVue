@@ -1,0 +1,379 @@
+body,
+template,
+.guideWarp,
+p,
+div,
+select {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#app {
+	width: 100%;
+	height: 100%;
+}
+
+template {
+	width: 100%;
+	height: 100%;
+}
+
+.guideSonWarp {
+	width: 100%;
+	height: 220%;
+}
+
+.guideQuest {
+	width: 100%;
+	height: 135%;
+	background: url(../img/guideBg.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.guideQuest>span {
+	display: inline-block;
+	width: 100%;
+	background: rgba(202, 232, 238, 0.5);
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.guideSonWarp>span {
+	display: inline-block;
+	width: 100%;
+	background: rgba(202, 232, 238, 0.5);
+	font-size: 4em;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.guideWarp {
+	width: 100%;
+	height: 220%;
+	background: url(../img/guideBg.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.guideWarp>span {
+	display: inline-block;
+	width: 100%;
+	background: rgba(202, 232, 238, 0.5);
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.cont {
+	margin-top: 2%;
+	width: 94%;
+	margin-left: 3%
+}
+
+.cont span:nth-child(2) {
+	font-size: 1.3em;
+	margin-bottom: 2%;
+	/*float: left;*/
+}
+
+.cont span:nth-child(3) {
+	display: inline-block;
+	font-size: 1em;
+	text-indent: 2em;
+}
+
+.cont p>i {
+	font-style: normal;
+	display: inline-block;
+	width: 1.4rem;
+	height: 1.4rem;
+	float: left;
+	border: 2px solid gray;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 1%
+}
+
+.icon {
+	font-style: normal;
+	display: inline-block;
+	text-align: center;
+	line-height: 1.2rem;
+	float:left;
+	margin:0.1rem;
+	width: 1.2rem;
+	height: 1.2rem;
+	background: gray;
+	font-size: 1rem;
+	border-radius: 50%
+}
+
+.contFive {
+	width:100%;
+	height:3%;
+	margin-top: 2%;
+	overflow: hidden;
+	position: relative;
+}
+
+.contFive span {
+	display: inline-block;
+}
+
+.contFive div>i {
+	font-style: normal;
+	display: inline-block;
+	width: 1.4rem;
+	height: 1.4rem;
+	float:left;
+	border: 2px solid gray;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 1%
+}
+
+.contFive>div {
+	width: 100%;
+	height:94%;
+	background: rgba(152, 193, 216, 0.5);
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	overflow: hidden;
+}
+
+.contFive span {
+	display: inline-block;
+	font-size: 1.2rem;
+	text-indent: 0.5rem;
+	float:left;
+}
+.contFive>em {
+	display: inline-block;
+	width: 20%;
+	height: 2.5rem;
+	background: white;
+	border-radius:45%;
+	position: absolute;
+	bottom: 1%;
+	right: 5%;
+}
+.contFive>div>em {
+	display: inline-block;
+	width: 20%;
+	height: 2.5rem;
+	background: white;
+	border-radius:45%;
+	position: absolute;
+	bottom: 1%;
+	right: 5%;
+}
+
+.changeIcom {
+	display: inline-block;
+	position: absolute;
+	/*left: 2%;*/
+	/*bottom: 2%;*/
+	width: 2.3rem;
+	height: 2.3rem;
+	background: blue;
+	border-radius: 50%
+}
+
+.upInput {
+	margin: 5% auto 0 auto;
+	width: 90%;
+	overflow: hidden;
+	display: block
+}
+
+.upInput input {
+	display: inline-block;
+	width: 98%;
+	font-size: 1.2rem;
+	color: gray;
+	padding: 3% 0 3% 2%;
+	margin-bottom: 2%;
+	border: none;
+	border-radius: 10px;
+}
+
+.colorInterval {
+	width: 100%;
+	height: 0.1%;
+	background-color: rgba(124, 170, 174, 0.5);
+}
+
+.midInput {
+	margin: 2% auto 0 auto;
+	width: 90%;
+	overflow: hidden;
+	position: relative;
+}
+
+.midInput input {
+	display: inline-block;
+	width: 98%;
+	font-size: 1.2rem;
+	color: gray;
+	padding: 2% 0 3% 2%;
+	margin-bottom: 2%;
+	border: none;
+	border-radius: 10px
+}
+
+.midInput>span {
+	display: inline-block;
+	font-size: 1.2rem;
+}
+
+textarea {
+	width: 99%;
+	height: 10rem;
+	color: gray;
+	font-size: 1.2rem;
+	resize: none;
+	border-radius: 10px
+}
+
+select {
+	width: 100%;
+	color: gray;
+	font-size: 1.2rem;
+	background-color: white;
+	padding: 2% 0 5% 2%;
+	overflow: hidden;
+}
+
+.Option {
+	position: relative;
+	width: 100%;
+}
+
+.Option div {
+	float: left;
+	width: 49%;
+}
+
+.Option div:nth-of-type(1):after {
+	content: '';
+	display: inline-block;
+	width: 0.5rem;
+	height:  0.5rem;
+	border-top: 2px solid gray;
+	border-right: 2px solid gray;
+	transform: rotateZ(90deg);
+	-webkit-transform: rotateZ(135deg);
+	position: absolute;
+	left: 44.5%;
+	top: 0.8rem;
+}
+
+.Option div:nth-of-type(2):after {
+	content: '';
+	display: inline-block;
+	width:  0.5rem;
+	height:  0.5rem;
+	border-top: 2px solid gray;
+	border-right: 2px solid gray;
+	transform: rotateZ(90deg);
+	-webkit-transform: rotateZ(135deg);
+	position: absolute;
+	right: 1.5%;
+	top: 0.8rem;
+}
+
+.Option div:nth-of-type(2) {
+	float: right;
+}
+
+;
+.Option div:nth-of-type(2) select {
+	float: right;
+}
+
+.foot {
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding-bottom: 5%;
+	overflow: hidden;
+}
+
+.foot em {
+	display: inline-block;
+	float: left;
+	width: 1.2rem;
+	height: 1.2rem;
+	background: url(../img/doudou.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.foot span:nth-of-type(1) {
+	display: inline-block;
+	width: 98%;
+	height: 20%;
+	border: 3px solid blue;
+	font-size: 1.5rem;
+	color: blue;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	overflow: hidden;
+	margin-bottom: 2%;
+	position: relative;
+}
+
+.foot span:nth-of-type(2) {
+	display: inline-block;
+	width: 91%;
+	float: right;
+	font-size:1.2rem;
+	color: gray;
+}
+
+.foot span input {
+	display: inline-block;
+	width: 100%;
+	margin-left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 9%;
+}
+
+.footBtn {
+	width: 100%;
+	height: 10rem;
+	margin-top: 2%;
+	background-color: rgba(195, 218, 213, 0.5);
+	position: relative;
+}
+
+.footBtn button {
+	width: 90%;
+	height: 40%;
+	border: none;
+	background-color: blue;
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	border-radius: 10px;
+	bottom: 30%;
+	left: 5%
+}
